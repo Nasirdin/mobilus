@@ -2,8 +2,7 @@ import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link, NavLink } from 'react-router-dom';
 import { getAccessory,} from '../../redux/reducers/mobilusReducer';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser } from '@fortawesome/free-solid-svg-icons';
+import User from './user.png'
 
 import Logo from '../logo.svg'
 
@@ -39,7 +38,7 @@ const Header = () => {
                     <ul className='header__auth'>
                         {!isAuth && <li className='header__authItem'><Link to='/modal/signin'>Войти</Link></li>}
                         {!isAuth && <li className='header__authItem'><Link to='/modal'>Регистрация</Link></li>}
-                        {isAuth && <li className='header__authItem'><Link to='/user'> <FontAwesomeIcon className='user-logo' icon={faUser}/></Link></li>}
+                        {isAuth && <li className='header__authItem'><Link to='/user'><img src={User} alt="user"/></Link></li>}
                     </ul>
                 </div>
                 

@@ -1,13 +1,13 @@
 import React from 'react';
 // import {TabList, Tab, Tabs, TabPanel} from 'react-tabs'
 import { Carousel } from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import newimg1 from './new1.svg'
 import newimg2 from './new2.svg'
 import newimg3 from './new3.svg'
 import newimg4 from './new4.svg'
-import { faCartArrowDown, faChartBar, faHeart } from '@fortawesome/free-solid-svg-icons';
+// import { faCartArrowDown, faChartBar, faHeart } from '@fortawesome/free-solid-svg-icons';
 
 import './new.scss'
 
@@ -29,9 +29,9 @@ const New = () => {
                                         <p className='card__old-price'>2700</p>
                                         <p className='card__new-price'>2500</p>
                                     </div>
-                                    <FontAwesomeIcon className='card__icon' icon={faChartBar}/>
+                                    {/* <FontAwesomeIcon className='card__icon' icon={faChartBar}/>
                                     <FontAwesomeIcon className='card__icon' icon={faHeart}/>
-                                    <FontAwesomeIcon className='card__icon cart' icon={faCartArrowDown}/>
+                                    <FontAwesomeIcon className='card__icon cart' icon={faCartArrowDown}/> */}
                                 </div>
                             </div>
                             <div className='card'>
@@ -43,9 +43,9 @@ const New = () => {
                                         <p className='card__old-price'>2700</p>
                                         <p className='card__new-price'>2500</p>
                                     </div>
-                                    <FontAwesomeIcon className='card__icon' icon={faChartBar}/>
+                                    {/* <FontAwesomeIcon className='card__icon' icon={faChartBar}/>
                                     <FontAwesomeIcon className='card__icon' icon={faHeart}/>
-                                    <FontAwesomeIcon className='card__icon cart' icon={faCartArrowDown}/>
+                                    <FontAwesomeIcon className='card__icon cart' icon={faCartArrowDown}/> */}
                                 </div>
                             </div>
                             <div className='card'>
@@ -57,9 +57,9 @@ const New = () => {
                                         <p className='card__old-price'>2700</p>
                                         <p className='card__new-price'>2500</p>
                                     </div>
-                                    <FontAwesomeIcon className='card__icon' icon={faChartBar}/>
+                                    {/* <FontAwesomeIcon className='card__icon' icon={faChartBar}/>
                                     <FontAwesomeIcon className='card__icon' icon={faHeart}/>
-                                    <FontAwesomeIcon className='card__icon cart' icon={faCartArrowDown}/>
+                                    <FontAwesomeIcon className='card__icon cart' icon={faCartArrowDown}/> */}
                                 </div>
                             </div>
                             <div className='card'>
@@ -71,9 +71,9 @@ const New = () => {
                                         <p className='card__old-price'>2700</p>
                                         <p className='card__new-price'>2500</p>
                                     </div>
-                                    <FontAwesomeIcon className='card__icon' icon={faChartBar}/>
+                                    {/* <FontAwesomeIcon className='card__icon' icon={faChartBar}/>
                                     <FontAwesomeIcon className='card__icon' icon={faHeart}/>
-                                    <FontAwesomeIcon className='card__icon cart' icon={faCartArrowDown}/>
+                                    <FontAwesomeIcon className='card__icon cart' icon={faCartArrowDown}/> */}
                                 </div>
                             </div>
                         </Carousel.Item>
@@ -87,9 +87,9 @@ const New = () => {
                                         <p className='card__old-price'>2700</p>
                                         <p className='card__new-price'>2500</p>
                                     </div>
-                                    <FontAwesomeIcon className='card__icon' icon={faChartBar}/>
+                                    {/* <FontAwesomeIcon className='card__icon' icon={faChartBar}/>
                                     <FontAwesomeIcon className='card__icon' icon={faHeart}/>
-                                    <FontAwesomeIcon className='card__icon cart' icon={faCartArrowDown}/>
+                                    <FontAwesomeIcon className='card__icon cart' icon={faCartArrowDown}/> */}
                                 </div>
                             </div>
                             <div className='card'>
@@ -101,9 +101,9 @@ const New = () => {
                                         <p className='card__old-price'>2700</p>
                                         <p className='card__new-price'>2500</p>
                                     </div>
-                                    <FontAwesomeIcon className='card__icon' icon={faChartBar}/>
+                                    {/* <FontAwesomeIcon className='card__icon' icon={faChartBar}/>
                                     <FontAwesomeIcon className='card__icon' icon={faHeart}/>
-                                    <FontAwesomeIcon className='card__icon cart' icon={faCartArrowDown}/>
+                                    <FontAwesomeIcon className='card__icon cart' icon={faCartArrowDown}/> */}
                                 </div>
                             </div>
                             <div className='card'>
@@ -115,9 +115,9 @@ const New = () => {
                                         <p className='card__old-price'>2700</p>
                                         <p className='card__new-price'>2500</p>
                                     </div>
-                                    <FontAwesomeIcon className='card__icon' icon={faChartBar}/>
+                                    {/* <FontAwesomeIcon className='card__icon' icon={faChartBar}/>
                                     <FontAwesomeIcon className='card__icon' icon={faHeart}/>
-                                    <FontAwesomeIcon className='card__icon cart' icon={faCartArrowDown}/>
+                                    <FontAwesomeIcon className='card__icon cart' icon={faCartArrowDown}/> */}
                                 </div>
                             </div>
                             <div className='card'>
@@ -129,9 +129,9 @@ const New = () => {
                                         <p className='card__old-price'>2700</p>
                                         <p className='card__new-price'>2500</p>
                                     </div>
-                                    <FontAwesomeIcon className='card__icon' icon={faChartBar}/>
+                                    {/* <FontAwesomeIcon className='card__icon' icon={faChartBar}/>
                                     <FontAwesomeIcon className='card__icon' icon={faHeart}/>
-                                    <FontAwesomeIcon className='card__icon cart' icon={faCartArrowDown}/>
+                                    <FontAwesomeIcon className='card__icon cart' icon={faCartArrowDown}/> */}
                                 </div>
                             </div>
                         </Carousel.Item>
@@ -145,9 +145,9 @@ const New = () => {
                                         <p className='card__old-price'>2700</p>
                                         <p className='card__new-price'>2500</p>
                                     </div>
-                                    <FontAwesomeIcon className='card__icon' icon={faChartBar}/>
+                                    {/* <FontAwesomeIcon className='card__icon' icon={faChartBar}/>
                                     <FontAwesomeIcon className='card__icon' icon={faHeart}/>
-                                    <FontAwesomeIcon className='card__icon cart' icon={faCartArrowDown}/>
+                                    <FontAwesomeIcon className='card__icon cart' icon={faCartArrowDown}/> */}
                                 </div>
                             </div>
                             <div className='card'>
@@ -159,9 +159,9 @@ const New = () => {
                                         <p className='card__old-price'>2700</p>
                                         <p className='card__new-price'>2500</p>
                                     </div>
-                                    <FontAwesomeIcon className='card__icon' icon={faChartBar}/>
+                                    {/* <FontAwesomeIcon className='card__icon' icon={faChartBar}/>
                                     <FontAwesomeIcon className='card__icon' icon={faHeart}/>
-                                    <FontAwesomeIcon className='card__icon cart' icon={faCartArrowDown}/>
+                                    <FontAwesomeIcon className='card__icon cart' icon={faCartArrowDown}/> */}
                                 </div>
                             </div>
                             <div className='card'>
@@ -173,9 +173,9 @@ const New = () => {
                                         <p className='card__old-price'>2700</p>
                                         <p className='card__new-price'>2500</p>
                                     </div>
-                                    <FontAwesomeIcon className='card__icon' icon={faChartBar}/>
+                                    {/* <FontAwesomeIcon className='card__icon' icon={faChartBar}/>
                                     <FontAwesomeIcon className='card__icon' icon={faHeart}/>
-                                    <FontAwesomeIcon className='card__icon cart' icon={faCartArrowDown}/>
+                                    <FontAwesomeIcon className='card__icon cart' icon={faCartArrowDown}/> */}
                                 </div>
                             </div>
                             <div className='card'>
@@ -187,9 +187,9 @@ const New = () => {
                                         <p className='card__old-price'>2700</p>
                                         <p className='card__new-price'>2500</p>
                                     </div>
-                                    <FontAwesomeIcon className='card__icon' icon={faChartBar}/>
+                                    {/* <FontAwesomeIcon className='card__icon' icon={faChartBar}/>
                                     <FontAwesomeIcon className='card__icon' icon={faHeart}/>
-                                    <FontAwesomeIcon className='card__icon cart' icon={faCartArrowDown}/>
+                                    <FontAwesomeIcon className='card__icon cart' icon={faCartArrowDown}/> */}
                                 </div>
                             </div>
                         </Carousel.Item>

@@ -1,8 +1,8 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faChartBar } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import {faChartBar } from '@fortawesome/free-solid-svg-icons';
 import likeBlack from './like-black.svg';
 // import likeActive from './like-active.svg';
 import shoppingCart from './shopping-cart.svg';
@@ -55,7 +55,7 @@ const Selected = () => {
                                 <div className='card__info'>
                                     <p className='card__price'>{el.price} сом</p>
                                     <div className='card__icon-block'>
-                                        <FontAwesomeIcon className='card__icon' icon={faChartBar}/>
+                                        {/* <FontAwesomeIcon className='card__icon' icon={faChartBar}/> */}
                                         <button className='card__icon card__like' ><img className={'like-black'} src={likeBlack} alt='img'/></button>
 
                                         {!isAuth &&

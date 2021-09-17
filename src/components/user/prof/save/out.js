@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux'; 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { outUser } from '../../../../redux/reducers/mobilusReducer';
 import { useHistory } from 'react-router';
 
@@ -16,7 +16,7 @@ const Out = () => {
     }
     return (
         <div>
-            <button className='save__out' onClick={handler} to='/'>Выход<FontAwesomeIcon className='save__arrow' icon={faArrowRight}/></button>
+            <button className='save__out' onClick={handler} to='/'>Выход</button>
         </div>
     )
 }

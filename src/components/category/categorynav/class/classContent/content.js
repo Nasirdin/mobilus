@@ -1,7 +1,7 @@
 import React from 'react';
 import {useSelector} from 'react-redux';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faChartBar } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import {faChartBar } from '@fortawesome/free-solid-svg-icons';
 import likeBlack from './like-black.svg';
 // import likeActive from './like-active.svg';
 import shoppingCart from './shopping-cart.svg';
@@ -78,7 +78,7 @@ const Content = () => {
                     <div className='card__info'>
                         <p className='card__price'>{el.price} сом</p>
                         <div className='card__icon-block'>
-                            <FontAwesomeIcon className='card__icon' icon={faChartBar}/>
+                            {/* <FontAwesomeIcon className='card__icon' icon={faChartBar}/> */}
                             <button className='card__icon card__like' ><img className={'like-black'} onClick={likeHandler} data-id={el._id} data-img={el.img} data-discription={el.discription} data-model={el.model} data-price={el.price} alt='img' src={likeBlack}/></button>
                             
                             {!isAuth &&

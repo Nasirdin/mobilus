@@ -1,9 +1,9 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { getAccessory } from '../../redux/reducers/mobilusReducer'; 
-import { faPlus, faMinus } from '@fortawesome/free-solid-svg-icons';
+// import { faPlus, faMinus } from '@fortawesome/free-solid-svg-icons';
 import './basket.scss';
 
 const Shop  = () => {
@@ -57,8 +57,8 @@ const Shop  = () => {
                                             <li className='body__info-1'><img src={el.img} alt='img' className='body__img'/></li>
                                             <li className='body__info-2'>{el.name}</li>
                                             <li className='body__info-1 edi'>{el.number}
-                                            <span className='body__icon-bg' ><FontAwesomeIcon className='body__icon' icon={faPlus}/></span>
-                                            <span className='body__icon-bg' ><FontAwesomeIcon className='body__icon' icon={faMinus}/></span>
+                                            <span className='body__icon-bg' >-</span>
+                                            <span className='body__icon-bg' >+</span>
                                             </li>
                                             <li className='body__info-1'>{el.price}</li>
                                             <li className='body__info-remove' data-id={el.id} >X</li>
