@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.scss';
-import AppWrapper from './app';
+import AppWrapper from './App';
 // import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
