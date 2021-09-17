@@ -7,7 +7,7 @@ const LOGIN__USER = 'LOGIN__USER';
 const OUT__USER = 'OUT__USER';
 const UPDATE__USER = 'UPDATE__USER';
 const GET__USER = 'GET__USER';
-
+const utlServer = 'https://mobilus.vercel.app'
 const initialState = {
     accessoryData : [],
     postUser : [],
@@ -46,7 +46,7 @@ const defFunc = (state = initialState, action) => {
 
 export const  getAccessory = () => {
     return (dispatch) => {
-        axios('http://localhost:8090/api/accessory')
+        axios(`${urlServer}/api/accessory`)
             .then(({data}) => dispatch({type: ACCESSORY, accessoryData: data}))
     }
 }
@@ -58,7 +58,7 @@ export const getUser = (user) => {
         }
         axios({
             methot: 'get',
-            url: 'http://localhost:8090/api/user',
+            url: `${urlServer}//api/user`,
             headers: {
                 'Content-Type': 'application/json' 
             },
@@ -80,7 +80,7 @@ export const postUser = (email, userName, password) => {
     return (dispatch) => {
         axios({
             method: 'post',
-            url: 'http://localhost:8090/api/users/registration',
+            url: `${urlServer}//api/users/registration`,
             headers: {
                 'Content-Type': 'application/json' 
             },
@@ -103,7 +103,7 @@ export const loginUser = (userName, password) => {
     return (dispatch) => {
         axios({
             method: 'post',
-            url: 'http://localhost:8090/api/users/login',
+            url: `${urlServer}//api/users/login`,
             headers: {
                 'Content-Type': 'application/json' 
             },
@@ -132,7 +132,7 @@ export const updateUser = (lastname, name, userName, email, telephone, city, are
     return (dispatch) => {
         axios({
             method: 'post',
-            url: 'http://localhost:8090/api/user/update',
+            url: `${urlServer}//api/user/update`,
             headers: {
                 'Content-Type': 'application/json' 
             },
