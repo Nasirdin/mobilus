@@ -1,0 +1,30 @@
+.slider{
+    margin-bottom: 70px;
+    max-height: 700px;
+    &__item{
+        height: 645px;
+    }
+    &__img{
+        height: 100%;
+    }
+    &__caption{
+        max-width: 500px;
+        text-align: left;
+        top: 141px;
+        left: 250px;
+    }
+    &__title{
+        font-size: 48px;
+        color: #fff;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+    &__subtitle{
+        font-weight: 700;
+        font-size: 72px;
+        color: #fff;
+    }
+    .sr-only{
+        display: none;
+    }
+}

@@ -1,0 +1,102 @@
+.header{
+    width: 100%;
+    -webkit-box-shadow:0px 8px 18px -18px rgba(0,0,0,0.85); 
+    box-shadow: 0px 8px 18px -18px rgba(0,0,0,0.85);
+    margin-bottom: 10px;
+    &__block-1{
+        background-color: #3b3b3b;
+        padding: 10px 0;
+        .container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .serviceNav{
+            display: flex;
+            justify-content: space-between;
+            &__item{
+                margin-right: 40px;
+            }
+            a{
+                color: #dadada;
+                font-size: 13px;
+            }
+        }
+    }
+    &__telLink{
+        font-size: 12px;
+        color: #fff;
+        font-weight: 700;
+    }
+    &__block-2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0;
+        
+    }
+    &__auth{
+        display: flex;
+        
+    }
+    &__authItem{
+        margin-right: 30px;
+        display: flex;
+        flex-direction: column;
+        a{
+            color: #676F77;
+            cursor: pointer;
+            &:hover{
+                color: #999;
+            }
+            &:focus{
+                color: #333;
+            }
+        }
+    }
+    &__searchForm{
+        position: relative;
+        width: 454px;
+        input{
+            left: 0;
+            outline: none;
+            width: 454px;
+            padding: 10px 15px;
+            background: #F3F3F3;
+            border: none;
+            border-radius: 4px;
+        }
+        button{
+            position: absolute;
+            border: none;
+            outline: none;
+            background: none;
+            right: 17px;
+            top: 6px;
+        }
+    }
+    .user-logo{
+        font-size: 20px;
+    }
+    &__block-3{
+        padding: 14px 0  ;
+        border-top: 1px solid #D6DCE1;
+        -webkit-box-shadow:0px 8px 18px -18px rgba(0,0,0,0.85); 
+        box-shadow: 0px 8px 18px -18px rgba(0,0,0,0.85);
+        margin-bottom: 10px;
+    }
+    &__nav{
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        .active{
+            color: #000;
+            
+        }
+    }
+    &__link{
+        font-size: 16px;
+        color: #3b3b3b;
+        margin: 0px 30px;
+    }
+}

@@ -1,0 +1,116 @@
+.shop{
+    width: 100%;
+    min-height: 50vh;
+    padding: 100px 0;
+    &__reg{
+            display: block;
+            margin: 0 auto;
+            padding: 15px 25px;
+            border-radius: 10px;
+            background:#F77D0C;
+            cursor: pointer;
+            width: 180px;
+            color: #fff;
+            outline: none;
+            transition: .7s;
+            text-align: center;
+            &:hover {
+                background-color: #999;
+                color: #000
+            }
+    }
+    &__header{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .title-2{
+        margin-bottom: 0;
+    }
+    &__link{
+        margin-left: 40px;
+        padding: 10px 30px;
+        border-radius: 6px;
+        border: 1px solid #676F77;
+        color: #000;
+        font-size: 14px;
+    }
+    .body{
+        display: flex;
+        justify-content: space-between;
+        &__content{
+            width: 830px;
+        }
+        &__item{
+            border-bottom: 1px solid #676F77;
+        }
+        &__info{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 15px 10px 0;
+            border-bottom: 1px solid #999;
+            li{
+                padding: 0 10px;
+                font-size: 14px;
+            }
+            &-1{
+                width: 88px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            &-2{
+                width: 300px;
+            }
+            &-remove{
+                cursor: pointer;
+                &:hover{
+                    color: #999;
+                }
+            }
+        }
+        &__icon{
+            color: #000;
+            cursor: pointer;
+            font-size: 17px;
+            transition: .5s;
+            &:hover{
+                color: #999;
+            }
+        }
+        &__img{
+            width: 50px;
+        }
+    }
+    .out{
+        background: #F2F2F2;
+        border-radius: 6px;
+        max-width: 280px;
+        height: 315px;
+        padding: 27px 30px 40px;
+        &__title{
+            font-size: 32px;
+            font-weight: 400;
+        }
+        &__subtitle{
+            margin-bottom: 23px;
+            font-size: 14px;
+        }
+        &__text{
+            margin-bottom: 20px;
+        }
+        &__price{
+            font-size: 28px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        &__btn{
+            padding: 10px 40px;
+            color: #fff;
+            background-color:#EE6409;
+            border-radius: 4px;
+        }
+    }
+}

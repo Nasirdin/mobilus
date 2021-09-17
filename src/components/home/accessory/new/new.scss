@@ -1,0 +1,94 @@
+.new{
+    .tab{
+        &:last-child{
+            margin-left: 20px;
+        }
+    }
+    &__slider{
+        position: relative;
+        width: 100%;
+        height: 600px;
+        span:first-child{
+            border-radius: 50%;
+            background-color: #333;
+            position: absolute;
+            background-image: none;
+            width: 40px;
+            height: 40px;
+            
+        }
+        .carousel-control-next-icon{
+            right: -40px;
+            &:before{
+                content: url(./arrow.svg);
+                position: absolute;
+                top: 9px;
+                left: 18px;
+            }
+        }
+        .carousel-control-prev-icon{
+            left: -40px;
+            
+            &:before{
+                bottom: 9px;
+                right: 18px;
+                content: url(./arrow.svg);
+                position: absolute;
+                transform: rotate(180deg);
+            }
+        }
+    }
+    &__list{
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__cards{
+        display: flex !important;
+        justify-content: space-between;
+        background-color: #fff;
+    }
+    .card{
+        padding: 16px;
+        border-radius: 6px;
+        width: 254px;
+        border: none;
+        &__img{
+            width: 100%;
+            margin-bottom: 25px;
+        }
+        &__title{
+            font-size: 16px;
+            color: #000;
+            margin-bottom: 5px;
+        }
+        &__subtitle{
+            font-size: 14px;
+            color: #676F77;
+            margin-bottom: 20px;
+        }
+        &__info-block{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__old-price{
+            color: #676F77;
+            text-decoration: line-through;
+            font-size: 14px;
+            margin: 0;
+        }
+        &__new-price{
+            font-size: 17px;
+            font-weight: 700;
+            margin: 0;
+        }color: #676F77;
+        &__icon{
+            font-size: 24px;
+            cursor: pointer;
+            &:focus{
+                color: red;
+            }
+        }
+    }
+    
+}

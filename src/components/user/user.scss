@@ -1,0 +1,26 @@
+.user{
+    padding: 100px 0 150px;
+    &__tabs{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    &__tablist{
+        width: 250px;
+        margin-right: 30px;
+    }
+    &__tab{
+        padding: 20px 0;
+        border-bottom: 1px solid #717177;
+        cursor: pointer;
+        &:last-child{
+            border: none;
+        }
+    }
+    &__tab[aria-selected="true"]{
+        font-weight: 700;
+    }
+    &__content{
+        width: 800px;
+    }
+}

@@ -1,0 +1,22 @@
+.select{
+    width: 100%;
+    min-height: 50vh;
+    padding: 100px 0;
+    &__reg{
+            display: block;
+            margin: 0 auto;
+            padding: 15px 25px;
+            border-radius: 10px;
+            background:#F77D0C;
+            cursor: pointer;
+            width: 180px;
+            color: #fff;
+            outline: none;
+            transition: .7s;
+            text-align: center;
+            &:hover {
+                background-color: #999;
+                color: #000
+            }
+    }
+}

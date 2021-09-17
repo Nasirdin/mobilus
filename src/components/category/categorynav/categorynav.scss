@@ -1,0 +1,38 @@
+.category-nav{
+    &__block{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        li{
+            width: 370px;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #999;
+            border-radius: 5px;
+            margin-bottom: 25px;
+            padding: 30px;
+            &:last-child{
+                .img-block{
+                    height: 210px;
+                    margin-bottom: 30px;
+                }
+
+            }
+            .img-block{
+                width: 140px;
+                height: 140px;
+                margin-bottom: 30px;
+                
+            }
+            img{
+                width: 100%;
+            }
+            a{
+                color: #999;
+                &:hover{
+                    color: #333;
+                }
+            }
+        }
+    }
+}

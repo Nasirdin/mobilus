@@ -1,0 +1,27 @@
+.history{
+    // &__block{}
+    .header{
+        &__items{
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #717171;
+            padding: 10px 0;
+        }
+        &__item{
+            width: 110px;
+
+        }
+        &__name{
+            width: 250px;
+        }
+        &__items, .header__name{
+            font-size: 13px;
+            color: #717171;
+        }
+    }
+    // .body{
+    //     &__goods-block{}
+    //     &__items{}
+    //     &__item{}
+    // }
+}

@@ -1,0 +1,98 @@
+.service{
+    &-header{
+        background: url('./cover.jpg') center/cover;
+        padding: 45px 0px 115px;
+        &__text{
+            font-size: 13px;
+            margin-bottom: 45px;
+            color: #fff;
+        }
+        &__title-3{
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+        &__subtitle{
+            font-size: 20px;
+            font-weight: 700;
+            color: #fff;
+        }
+    }
+    &-content{
+        padding: 95px 0px 130px;
+        &__block-1{
+            margin-bottom: 64px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__text{
+            font-size: 32px;
+        }
+        &__link{
+            display: flex;
+            align-items: flex-end;
+            border: 3px solid #EE6409;
+            border-radius: 4px;
+            padding: 20px 30px;
+        }
+        p{
+            margin-right: 20px;
+            margin-bottom: 0;
+        }
+        &__title{
+            font-size: 40px;
+            font-weight: 400;
+            margin-bottom: 60px;
+        }
+        &__items{
+            display: flex;
+            justify-content: space-between;   
+        }
+        &__item{
+            margin-bottom: 88px;
+            img{
+                margin-bottom: 20px;
+            }
+            h3{
+                font-size: 20px;
+                font-weight: 700;
+                color: #000;
+                margin-bottom: 20px;
+            }
+            p{
+                font-size: 13px;
+                color: #676F77;
+            }
+        }
+        &__block-3{
+            background: url(./cover2.jpg) center/cover;
+            padding: 45px 60px;
+            border-radius: 8px;
+            p{
+                font-size: 32px;
+                font-weight: 700;
+                margin-bottom: 28px;
+            }
+            ul{
+                display: flex;
+                align-items: center;
+                button{
+                    margin-right: 44px;
+                    padding: 11px 42px;
+                    outline: none;
+                    border: none;
+                    background: linear-gradient(90deg, #EE6409 0%, #F77D0C 100%), #EE6409;
+                    border-radius: 4px;
+                    color: #fff;
+                }
+                li:last-child{
+                    color: #000;
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}

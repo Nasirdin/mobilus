@@ -1,0 +1,23 @@
+.contact{
+    padding: 100px 0;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #000;
+        padding-bottom: 50px;
+    }
+    &__title{
+        font-size: 13px;
+        color: #676F77;
+        margin-bottom: 5px;
+    }
+    &__text{
+        display: inline-block;
+        font-size: 18px;
+        color: #000;
+        margin-bottom: 30px;
+    }
+    &__map{
+        width: 700px;
+    }
+}

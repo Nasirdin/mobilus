@@ -1,0 +1,26 @@
+.save{
+    &__title{
+        margin-bottom: 30px;
+    }
+    &__name{
+        color: #717171;
+        span {
+            font-weight: 700px;
+            color: #000;
+            margin-left: 10;
+        }
+    }
+    &__out{
+        display: flex;
+        align-items: center;
+        background: none;
+        border: none;
+        color: #257dff;
+        &:hover{
+            color: #999;
+        }
+    }
+    &__arrow{
+        margin-left: 5px;
+    }
+}

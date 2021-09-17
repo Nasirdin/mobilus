@@ -1,0 +1,42 @@
+.update{
+    &__title{
+        font-weight: 700;
+        font-size: 32px;
+        color: 000;
+    }
+    &__form{
+        display: flex;
+        flex-direction: column;
+    }
+    &__label{
+        font-size: 13px;
+        color: #717171;
+    }
+    &__input{
+        margin-bottom: 15px;
+        padding: 5px 10px;
+        font-size: 14px;
+        outline: none;
+        border: 1px solid #717171;
+        border-radius: 4px;
+        width: 350px;
+        &:focus{
+            background-color: #f0f0f0;
+        }
+    }
+    &__btn{
+        width: 200px;
+        outline: none;
+        border: none;
+        background-color: #F77D0C;
+        padding: 10px;
+        border-radius: 10px;
+        color: #fff;
+        &:hover{
+            background-color: #999;
+        }
+        &:active{
+            background-color: #777;
+        }
+    }
+}
