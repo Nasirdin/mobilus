@@ -7,7 +7,7 @@ const LOGIN__USER = 'LOGIN__USER';
 const OUT__USER = 'OUT__USER';
 const UPDATE__USER = 'UPDATE__USER';
 const GET__USER = 'GET__USER';
-const utlServer = 'https://mobilus.vercel.app'
+const utlServer = 'http://localhost:8090/'
 const initialState = {
     accessoryData : [],
     postUser : [],
